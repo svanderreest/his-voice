@@ -1,0 +1,56 @@
+        @font-face{
+            font-family: BebasKai;
+            src: url("./font/BebasKai.otf");
+        }
+        body{
+            background-color: rgb(19, 78, 88);
+            color:white;
+            font-family: BebasKai;
+            margin:0
+        }
+        html{
+            font-size: 30px;
+        }
+        .button{
+            background-color: transparent;
+            border:none;            
+        }
+        .dis-n{
+            display: none
+        }
+        .footer{
+            position: fixed;
+            bottom: 0px;            
+            height: 2.2rem;
+            text-align: center;
+            width: 100%;
+            background-color: rgb(19, 78, 88)            
+        }
+        .footer-btn-img{
+            max-width: 1.5rem;
+        }
+        .header{
+            margin-top: .5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo{
+            width: 1rem;
+            margin-right: .2rem
+        }
+        .share-text{
+            font-family: sans-serif;
+            font-size: .8rem;
+            margin-top: 1rem;
+            height: 7rem;
+            width: 100%; 
+        }
+        .quote-section{
+            text-align: center;
+            max-width: 10rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2rem; 
+            margin-bottom: 2.8rem;     
+        }

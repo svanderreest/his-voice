@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>His Voice</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header"><img class="logo" src="./img/main-icon.svg">His Voice</header>
+    <main class="quote-section">
+        <section class="js-quote-section"> 
+        </section>
+        <section class="js-details-section dis-n"> 
+        </section>
+        <section class="js-share-section dis-n">
+            Share this passage:
+            <textarea class="js-share-text share-text"></textarea>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="js-quote-section">
+            <button onclick="toggleShare()" class="button"><img class="footer-btn-img" src="./img/share-btn.svg"></button>
+            <button onclick="refreshQuote()" class="button"><img class="footer-btn-img" src="./img/quote-btn.svg"></button>
+            <button onclick="toggleDetails()" class="button"><img class="footer-btn-img" src="./img/details-btn.svg"></button>
+        </section>
+        <section class="js-details-section dis-n">
+            <button onclick="toggleDetails()" class="button"><img class="footer-btn-img" src="./img/back-btn.svg"></button>
+        </section>
+        <section class="js-share-section dis-n">
+            <button onclick="copyShareText()" class="button"><img class="footer-btn-img" src="./img/copy-btn.svg"></button>
+            <button onclick="toggleShare()" class="button"><img class="footer-btn-img" src="./img/back-btn.svg"></button>
+        </section>
+
+    </footer>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
